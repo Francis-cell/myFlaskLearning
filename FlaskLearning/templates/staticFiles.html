@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>静态文件测试</title>
+<!--    <link rel="stylesheet" type="text/css" href="../staticFiles/css/MyCss01.css">-->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/css/MyCss01.css') }}">
+<!--    <script type="text/javascript" src="../staticFiles/js/MyTest01.js"></script>-->
+    <script type="text/javascript" src="{{ url_for('static', filename='/js/MyTest01.js') }}"></script>
+<!--    <script type="text/javascript" src="../staticFiles/JQuery/jquery.min.js"></script>-->
+    <script type="text/javascript" src="{{ url_for('static', filename='/JQuery/jquery.min.js') }}"></script>
+</head>
+<body>
+    <div id="div1" style=""></div>
+    <input id="input1" onclick="clickMe()" type="button" style="" value="点击">
+</body>
+</html>

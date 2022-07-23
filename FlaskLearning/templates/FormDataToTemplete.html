@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单数据发送给模板使用</title>
+</head>
+<body>
+    <!-- 将表单将要发送的数据发送给本机的5000端口的/result提供的服务，采用的发送方式为POST方式 -->
+    <form action="http://localhost:5000/result" method="POST">
+         <p>Name <input type = "text" name = "Name" /></p>
+         <p>Physics <input type = "text" name = "Physics" /></p>
+         <p>Chemistry <input type = "text" name = "chemistry" /></p>
+         <p>Maths <input type ="text" name = "Mathematics" /></p>
+         <p><input type = "submit" value = "submit" /></p>
+    </form>
+</body>
+</html>

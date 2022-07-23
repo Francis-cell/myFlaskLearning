@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+#div1 {
+    width: 200px;
+    height: 160px;
+    margin-outside: 50px;
+    background-color: moccasin;
+    font-family: 'Microsoft YaHei UI';
+    font-size: 20px;
+    line-height: 160px;
+    text-align: center;
+}
+
+#input1 {
+    margin-left: 76px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: lightcoral;
+}
