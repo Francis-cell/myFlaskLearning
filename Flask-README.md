@@ -14,6 +14,18 @@
 
 
 
+==问题类==
+
+1、[记踩坑--Flask Web开发：S6电子邮件 ----[Errno 11004\] getaddrinfo failed](https://www.cnblogs.com/liangmingshen/p/10162153.html)
+
+
+
+
+
+==扩展类==
+
+1、[Python fields.TextField方法代码示例](https://vimsky.com/examples/detail/python-method-wtforms.fields.TextField.html)
+
 
 
 
