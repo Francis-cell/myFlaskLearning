@@ -13,7 +13,11 @@ def student():
 def result():
     if request.method == 'POST':
         result = request.form
+        print(result)
+        print(type(result))
         return render_template('FormDataToTemplete_result.html', result=result)
+        # return render_template('FormDataToTemplete.html', result=result)
+
 
 if __name__ == '__main__':
     print("表单发送数据到模板使用！！！")
